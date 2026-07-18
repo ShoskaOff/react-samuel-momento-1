@@ -73,3 +73,32 @@
     margin-bottom:35px;
 
 }
+
+.hero button{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:16px 40px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.hero button:hover{
+
+    transform:scale(1.05);
+
+    background:#1d4ed8;
+
+}

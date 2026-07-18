@@ -1,0 +1,31 @@
+.stats{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:120px;
+
+    padding:80px;
+
+    background:white;
+
+    text-align:center;
+
+}
+
+.stats h2{
+
+    font-size:50px;
+
+    color:#2563eb;
+
+}
+
+.stats p{
+
+    margin-top:10px;
+
+    color:#555;
+
+}
