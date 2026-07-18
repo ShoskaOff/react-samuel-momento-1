@@ -1,16 +1,46 @@
-# React + Vite
+# 📦 StockFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema web desarrollado con React y Vite para la gestión y control de inventarios, diseñado para facilitar la administración de productos de manera rápida, organizada y eficiente.
 
-Currently, two official plugins are available:
+## 📖 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+StockFlow nace como una solución para pequeñas y medianas empresas que necesitan llevar un control claro de su inventario sin recurrir a procesos manuales o herramientas complejas. La aplicación busca centralizar la información de los productos, permitiendo una administración sencilla, intuitiva y escalable.
 
-## React Compiler
+Este proyecto corresponde al Proyecto Integrador del programa Técnico en Sistemas y servirá como base para implementar nuevas funcionalidades a lo largo del semestre.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivos
 
-## Expanding the ESLint configuration
+- Organizar la información del inventario de forma eficiente.
+- Facilitar la gestión de productos.
+- Ofrecer una interfaz moderna, intuitiva y fácil de usar.
+- Implementar una arquitectura escalable basada en componentes reutilizables de React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- HTML5
+- CSS3
+- Node.js
+- NPM
+- Git
+- GitHub
+
+## 📂 Estructura del proyecto
+
+```text
+src/
+│
+├── assets/        # Imágenes y recursos
+├── components/    # Componentes reutilizables
+├── pages/         # Vistas principales
+├── App.jsx
+├── main.jsx
+└── App.css
+```
+
+## 👨‍💻 Desarrollado por
+
+Samuel Salas
