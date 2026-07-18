@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #1f2937;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px;
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.header ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.header li{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.header li:hover{
+    color:#60a5fa;
+}
