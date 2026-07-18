@@ -1,0 +1,18 @@
+.features{
+    padding:80px 40px;
+    background:#eef2f7;
+    text-align:center;
+}
+
+.features h2{
+    margin-bottom:50px;
+    font-size:36px;
+    color:#1f2937;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
