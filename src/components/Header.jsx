@@ -1,12 +1,15 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useFavorites } from "../context/FavoritesContext";
+import "../styles/Header.css";
 
 function Header() {
   const { favorites } = useFavorites();
 
   return (
     <header className="header">
-      <h1>📦 StockFlow</h1>
+      <Link to="/" className="logo">
+        📦 StockFlow
+      </Link>
 
       <nav>
         <NavLink

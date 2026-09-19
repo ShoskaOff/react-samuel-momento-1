@@ -75,3 +75,18 @@
   color: white;
   font-size: 12px;
 }
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.logo:visited {
+  color: inherit;
+}
+
+.logo:hover {
+  color: inherit;
+  text-decoration: none;
+}
