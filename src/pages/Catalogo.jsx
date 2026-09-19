@@ -125,8 +125,8 @@ function Catalogo() {
                   onClick={() => toggleFavorite(producto)}
                 >
                   {isFavorite(producto.id)
-                    ? "★ Quitar de favoritos"
-                    : "☆ Agregar a favoritos"}
+                    ? "★ Quitar de favoritos."
+                    : "☆ Agregar a favoritos."}
                 </button>
               </div>
             </article>
