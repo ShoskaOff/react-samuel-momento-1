@@ -1,9 +1,18 @@
-import { NavLink, Link } from "react-router-dom";
+import { useContext } from "react";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 import { useFavorites } from "../context/FavoritesContext";
+import { AuthContext } from "../context/AuthContext";
 import "../styles/Header.css";
 
 function Header() {
   const { favorites } = useFavorites();
+  const { alternarSesion } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const cerrarSesion = () => {
+    alternarSesion();
+    navigate("/login");
+  };
 
   return (
     <header className="header">
@@ -40,6 +49,14 @@ function Header() {
           Favoritos
           <span className="favorite-count">{favorites.length}</span>
         </NavLink>
+
+        <button
+          type="button"
+          className="logout-button"
+          onClick={cerrarSesion}
+        >
+          Cerrar sesión
+        </button>
       </nav>
     </header>
   );
