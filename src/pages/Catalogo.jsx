@@ -45,7 +45,7 @@ const productos = [
   },
   {
     id: 6,
-    nombre: "Laptop empresarial",
+    nombre: "Laptop Empresarial",
     categoria: "Computadores",
     precio: 2499900,
     stock: 5,
